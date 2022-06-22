@@ -32,11 +32,12 @@
           </p>
           <button class="button-orange-purple">Get Started</button>
         </article>
-        <img
-          src="./assets/image-hero-mobile.png"
-          alt="hero-img"
-          class="useBorderBox"
-        />
+        <picture>
+          <source type="image/webp" media="(width: 50rem)" srcset="./assets/image-hero-desktop.webp, ./assets/image-hero-desktop@2x.webp 2x">
+          <source type="image/png" media="(min-width: 50rem)" srcset="./assets/image-hero-desktop.png, ./assets/image-hero-desktop@2x.png 2x">
+
+          <img src="./images/image-hero-mobile.png" alt="Woman viewing lesson. Caption: Members 29k - Course hours 1,451.">
+        </picture>
       </section>
 
       <section id="features">

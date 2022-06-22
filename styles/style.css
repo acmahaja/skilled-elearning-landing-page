@@ -44,10 +44,12 @@ main {
   margin-bottom: 2.875rem;
 }
 
-#overview img {
+#overview picture {
   width: 100%;
   height: auto;
 }
+
+
 
 #features {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
@@ -167,11 +169,10 @@ footer {
     margin: 0rem;
   }
 
-  #overview img {
+  #overview picture {
     position: absolute;
     top: calc(-18rem);
     right: calc(-18rem);
-    content: url("./assets/image-hero-tablet.png");
     height: 50rem;
     width: auto;
   }
@@ -240,15 +241,13 @@ footer {
     margin-bottom: 2.5rem;
   }
 
-  #overview img {
+  #overview picture {
     position: absolute;
-    top: -18.5rem;
-    right: -12rem;
-    height: 45rem;
-    content: url("./assets/image-hero-desktop.png");
+    top: -23rem;
+    right: -20rem;
     width: auto;
   }
-
+  
   #features ul {
     display: flex;
     flex-direction: row;
