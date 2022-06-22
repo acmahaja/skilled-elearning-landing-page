@@ -47,6 +47,9 @@ main {
 #overview picture {
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -131,7 +134,7 @@ footer {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   html,
   body {
     width: 100%;
@@ -159,7 +162,7 @@ footer {
   }
 
   #overview article {
-    width: 45%;
+    width: 30%;
     max-width: 24.875rem;
     min-height: 17.75rem;
     padding-left: 2.5rem;
@@ -178,18 +181,24 @@ footer {
   }
 
   #features ul {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    padding: 0rem calc(2.5rem - 5px);
+    padding: 0rem calc(2.5rem - 10px);
     width: 100%;
   }
 
   #features ul li {
     width: 339px;
     height: 259px;
-    padding: 5px;
+    padding: 3.5rem 1rem 2rem 2rem ;
+  }
+  
+  #features ul li p{
+font-size: 16px;
   }
   #features ul li#checkout {
     width: 339px;
@@ -197,6 +206,8 @@ footer {
     display: block;
     padding-top: 3.5rem;
   }
+
+
 
   footer {
     padding: 0rem 2.5rem;
