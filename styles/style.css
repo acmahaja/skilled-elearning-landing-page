@@ -130,156 +130,172 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
-    html,body {
-        width: 100%;
-        overflow-x: hidden;
-    }
+  nav {
+    padding-top: 1.5rem;
+    padding: 0rem 2.5rem;
+    z-index: 3;
+    margin-top: 1.5rem;
+  }
 
-    nav {
-        padding-top: 1.5rem;
-        padding: 0rem 2.5rem;
-        z-index: 3;
-        margin-top: 1.5rem;
-    }
+  main {
+    flex-direction: column;
+  }
 
-    main {
-        flex-direction: column;
-        
-    }
+  #overview {
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin-top: 6rem;
+    margin-bottom: 11.625rem;
+  }
 
-    #overview {
-        flex-direction: row;
-        width: 100%;
-        height: fit-content;
-        position: relative;
-        margin-top: 6rem;
-        margin-bottom: 11.625rem;
+  #overview article {
+    width: 45%;
+    max-width: 24.875rem;
+    min-height: 17.75rem;
+    padding-left: 2.5rem;
+  }
 
-    }
+  #overview article h2 {
+    margin: 0rem;
+  }
 
-    #overview article {
-        width: 45%;
-        max-width: 24.875rem;
-        min-height: 17.75rem;
-        padding-left: 2.5rem;
-    }
+  #overview img {
+    position: absolute;
+    top: calc(-18rem);
+    right: calc(-18rem);
+    content: url("/assets/image-hero-tablet.png");
+    height: 50rem;
+    width: auto;
+  }
 
-    #overview article h2 {
-        margin: 0rem;
-    }
+  #features ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem calc(2.5rem - 5px);
+    width: 100%;
+  }
 
-    #overview img {
-        position: absolute;
-        top: calc(-18rem);
-        right: calc(-18rem);
-        content:url("/assets/image-hero-tablet.png");
-        height: 50rem;
-        width: auto;
-    }
+  #features ul li {
+    width: 339px;
+    height: 259px;
+    padding: 5px;
+  }
+  #features ul li#checkout {
+    width: 339px;
+    height: 259px;
+    display: block;
+    padding-top: 3.5rem;
+  }
 
-    #features ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0rem calc(2.5rem - 5px);
-        width: 100%;
-    }
-    
-    #fetures ul li {
-        width: 339px;
-        height: 259px;
-        padding: 5px;
-    }
-    #features ul li#checkout {
-        width: 339px;
-        height: 259px;
-        display: block;
-        padding-top: 3.5rem;
-    }
-
-    footer {
-        padding: 0rem 2.5rem;
-    }
-
-
+  footer {
+    padding: 0rem 2.5rem;
+  }
 }
 
 @media screen and (min-width: 1100px) {
+  nav {
+    padding-top: 1.5rem;
+    padding: 0rem 10.3rem;
+    z-index: 3;
+    margin-top: 1.5rem;
+  }
 
-    nav {
-        padding-top: 1.5rem;
-        padding: 0rem 10.3rem;
-        z-index: 3;
-        margin-top: 1.5rem;
-    }
+  main {
+    flex-direction: column;
+  }
 
-    main {
-        flex-direction: column;
-        
-    }
+  #overview {
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 6.875rem;
+  }
 
-    #overview {
-        flex-direction: row;
-        width: 100%;
-        height: fit-content;
-        position: relative;
-        margin-top: 6rem;
-        margin-bottom: 11.625rem;
+  #overview article {
+    width: 35%;
+    max-width: 28.5625rem;
+    min-height: 22.4375rem;
+    padding-left: 10.3rem;
+  }
 
-    }
+  #overview article h2 {
+    margin: 0rem;
+    font-size: 56px;
+  }
 
-    #overview article {
-        width: 35%;
-        max-width: 28.5625rem;
-        min-height: 22.4375rem;
-        padding-left: 10.3rem;
-    }
+  #overview article p {
+    margin-top: 1.8125rem;
+    margin-bottom: 2.5rem;
+  }
 
-    #overview article h2 {
-        margin: 0rem;
-        font-size: 56px;
-    }
+  #overview img {
+    position: absolute;
+    top: -18.5rem;
+    right: -12rem;
+    height: 45rem;
+    content: url("/assets/image-hero-desktop.png");
+    width: auto;
+  }
 
-    #overview article p {
-        margin-top: 1.8125rem;
-        margin-bottom: 2.5rem;
+  #features ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem calc(10.3rem - 5px);
+    width: 100%;
+  }
 
-    }
+  #features ul li {
+    width: 350px;
+    height: 322px;
+    padding: 4rem 2rem 2.5rem 2rem;
+    margin-bottom: 5rem;
+  }
 
-    #overview img {
-        position: absolute;
-        top: -18.5rem;
-        right: -12rem;
-        height: 45rem;
-        content:url("/assets/image-hero-desktop.png");
-        width: auto;
-    }
+  #features ul li#checkout {
+    width: 350px;
+    height: 322px;
+    display: block;
+    padding-top: 3.5rem;
+  }
 
-    #features ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0rem calc(10.3rem - 5px);
-        width: 100%;
-    }
-    
-    
-    #fetures ul li {
-        width: 339px;
-        height: 259px;
-        padding: 5px;
-    }
-    #features ul li#checkout {
-        width: 339px;
-        height: 259px;
-        display: block;
-        padding-top: 3.5rem;
-    }
+  #features ul li#checkout h4 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+  }
 
-    footer {
-        padding: 0rem 10.3rem;
-    }
+  #features ul li h5 {
+    font-size: 24px;
+  }
+
+  #features ul li p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 1.5rem 0rem;
+  }
+
+  #features ul li a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  footer {
+    padding: 0rem 10.3rem;
+  }
 }
