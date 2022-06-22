@@ -171,7 +171,7 @@ footer {
     position: absolute;
     top: calc(-18rem);
     right: calc(-18rem);
-    content: url("/assets/image-hero-tablet.png");
+    content: url("./assets/image-hero-tablet.png");
     height: 50rem;
     width: auto;
   }
@@ -245,7 +245,7 @@ footer {
     top: -18.5rem;
     right: -12rem;
     height: 45rem;
-    content: url("/assets/image-hero-desktop.png");
+    content: url("./assets/image-hero-desktop.png");
     width: auto;
   }
 
