@@ -239,7 +239,7 @@ footer {
     padding-left: 10.3rem;
   }
 
-  #overview article h2 {
+  #overview article h1 {
     margin: 0rem;
     font-size: 56px;
   }
@@ -247,6 +247,8 @@ footer {
   #overview article p {
     margin-top: 1.8125rem;
     margin-bottom: 2.5rem;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   #overview picture {
