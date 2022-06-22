@@ -1,15 +1,16 @@
+:root {
+    --button-hover-overlay: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))
+}
+
 button {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0px;
   text-align: left;
   text-align: center;
-}
 
-.button-dark-blue-slate {
-  background: var(--dark-slate);
   height: 56px;
   width: 167px;
   border-radius: 28px;
@@ -17,12 +18,31 @@ button {
   border: none;
 }
 
+.button-dark-blue-slate {
+    background: var(--dark-slate);
+}
+
+
+
 .button-blue-purple {
-    background: var(--gradient-blue-pruple);
-    height: 56px;
-    width: 167px;
-    border-radius: 28px;
-    color: white;
-    border: none;
-  }
+  background: var(--gradient-blue-pruple);
+}
+
+.button-orange-purple {
+    background: var(--gradient-orange-purple);
+}
+
+
+.button-dark-blue-slate:hover {
+    background: var(--button-hover-overlay), var(--dark-slate);  
+}
+  
+  .button-blue-purple:hover {
+    background: var(--button-hover-overlay), var(--gradient-blue-pruple);
+}
+  
+  .button-orange-purple:hover {
+    background: var(--button-hover-overlay), var(--gradient-orange-purple);
+    
+}
   
