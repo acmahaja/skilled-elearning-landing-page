@@ -8,8 +8,8 @@ button {
   text-align: center;
 }
 
-.button-dark-slate {
-  background: var(--dark-slate);
+.button-blue-purple {
+  background: var(--gradient-blue-pruple);
   height: 56px;
   width: 167px;
   border-radius: 28px;
@@ -17,8 +17,8 @@ button {
   border: none;
 }
 
-.button-blue- {
-    background: var(--gradient-blue-pruple);
+.button-dark-blue-slate {
+    background: var(--dark-slate);
     height: 56px;
     width: 167px;
     border-radius: 28px;
