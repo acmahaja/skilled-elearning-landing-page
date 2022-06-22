@@ -175,7 +175,7 @@ footer {
   #overview picture {
     position: absolute;
     top: calc(-18rem);
-    right: calc(-18rem);
+    right: calc(-25rem);
     height: 50rem;
     width: auto;
   }
@@ -254,8 +254,8 @@ font-size: 16px;
 
   #overview picture {
     position: absolute;
-    top: -23rem;
-    right: -20rem;
+    top: -20rem;
+    right: -23rem;
     width: auto;
   }
   
