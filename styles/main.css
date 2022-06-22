@@ -41,7 +41,6 @@ h1 {
   letter-spacing: 0px;
   text-align: left;
   color: var(--dark-slate);
-
 }
 
 h2 {
@@ -83,4 +82,13 @@ b {
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
+}
+
+a {
+text-decoration: none;
+color: var(--pink);
+  font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
 }
