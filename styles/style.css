@@ -52,8 +52,6 @@ main {
   justify-content: center;
 }
 
-
-
 #features {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   width: 100%;
@@ -162,7 +160,7 @@ footer {
   }
 
   #overview article {
-    width: 30%;
+    width: 45%;
     max-width: 24.875rem;
     min-height: 17.75rem;
     padding-left: 2.5rem;
@@ -174,8 +172,8 @@ footer {
 
   #overview picture {
     position: absolute;
-    top: calc(-18rem);
-    right: calc(-25rem);
+    top: calc(-15rem);
+    right: calc(-15rem);
     height: 50rem;
     width: auto;
   }
@@ -194,11 +192,11 @@ footer {
   #features ul li {
     width: 339px;
     height: 259px;
-    padding: 3.5rem 1rem 2rem 2rem ;
+    padding: 3.5rem 1rem 2rem 2rem;
   }
-  
-  #features ul li p{
-font-size: 16px;
+
+  #features ul li p {
+    font-size: 16px;
   }
   #features ul li#checkout {
     width: 339px;
@@ -206,8 +204,6 @@ font-size: 16px;
     display: block;
     padding-top: 3.5rem;
   }
-
-
 
   footer {
     padding: 0rem 2.5rem;
@@ -258,7 +254,7 @@ font-size: 16px;
     right: -23rem;
     width: auto;
   }
-  
+
   #features ul {
     display: flex;
     flex-direction: row;
