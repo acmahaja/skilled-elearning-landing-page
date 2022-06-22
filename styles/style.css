@@ -254,7 +254,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0rem calc(10.3rem - 5px);
+    padding: 0rem calc(10.3rem - 15px);
     width: 100%;
   }
 
