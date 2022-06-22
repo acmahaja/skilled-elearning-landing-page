@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+:root {
+  --slate: #666ca3;
+  --dark-slate: #13183f;
+  --dark-grey: #83869a;
+  --pink: #f74780;
+  --light-pink: #ffa7c3;
+  --white: white;
+  --gradient-orange-purple: linear-gradient(
+    180deg,
+    #ff6f48 0.04%,
+    #f02aa6 100%
+  );
+  --gradient-blue-pruple: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.useBorderBox {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 71px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+b {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}

@@ -1,0 +1,28 @@
+button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-align: center;
+}
+
+.button-dark-slate {
+  background: var(--dark-slate);
+  height: 56px;
+  width: 167px;
+  border-radius: 28px;
+  color: white;
+  border: none;
+}
+
+.button-blue- {
+    background: var(--gradient-blue-pruple);
+    height: 56px;
+    width: 167px;
+    border-radius: 28px;
+    color: white;
+    border: none;
+  }
+  
