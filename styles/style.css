@@ -128,3 +128,74 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+
+    html,body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav {
+        padding-top: 1.5rem;
+        padding: 0rem 2.5rem;
+        z-index: 3;
+        margin-top: 1.5rem;
+    }
+
+    main {
+        flex-direction: column;
+        
+    }
+
+    #overview {
+        flex-direction: row;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        margin-top: 6rem;
+        margin-bottom: 11.625rem;
+
+    }
+
+    #overview article {
+        width: 24.875rem;
+        height: 17.75rem;
+        padding-left: 2.5rem;
+    }
+
+    #overview article h2 {
+        margin: 0rem;
+    }
+
+    #overview img {
+        position: absolute;
+        top: calc(-17rem);
+        right: calc(33rem - 100%);
+        content:url("/assets/image-hero-tablet.png");
+        height: 45rem;
+        width: auto;
+    }
+    #features ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0rem calc(2.5rem - 5px);
+        width: 100%;
+    }
+    
+
+    #fetures ul li {
+        width: 339px;
+        height: 259px;
+        padding: 5px;
+    }
+    #features ul li#checkout {
+        width: 339px;
+        height: 259px;
+        display: block;
+        padding-top: 3.5rem;
+    }
+
+}
