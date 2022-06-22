@@ -129,7 +129,7 @@ footer {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
 
     html,body {
         width: 100%;
@@ -159,8 +159,9 @@ footer {
     }
 
     #overview article {
-        width: 24.875rem;
-        height: 17.75rem;
+        width: 45%;
+        max-width: 24.875rem;
+        min-height: 17.75rem;
         padding-left: 2.5rem;
     }
 
@@ -170,12 +171,13 @@ footer {
 
     #overview img {
         position: absolute;
-        top: calc(-17rem);
-        right: calc(33rem - 100%);
+        top: calc(-18rem);
+        right: calc(-18rem);
         content:url("/assets/image-hero-tablet.png");
-        height: 45rem;
+        height: 50rem;
         width: auto;
     }
+
     #features ul {
         display: flex;
         flex-direction: row;
@@ -185,7 +187,6 @@ footer {
         width: 100%;
     }
     
-
     #fetures ul li {
         width: 339px;
         height: 259px;
@@ -198,4 +199,87 @@ footer {
         padding-top: 3.5rem;
     }
 
+    footer {
+        padding: 0rem 2.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    nav {
+        padding-top: 1.5rem;
+        padding: 0rem 10.3rem;
+        z-index: 3;
+        margin-top: 1.5rem;
+    }
+
+    main {
+        flex-direction: column;
+        
+    }
+
+    #overview {
+        flex-direction: row;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        margin-top: 6rem;
+        margin-bottom: 11.625rem;
+
+    }
+
+    #overview article {
+        width: 35%;
+        max-width: 28.5625rem;
+        min-height: 22.4375rem;
+        padding-left: 10.3rem;
+    }
+
+    #overview article h2 {
+        margin: 0rem;
+        font-size: 56px;
+    }
+
+    #overview article p {
+        margin-top: 1.8125rem;
+        margin-bottom: 2.5rem;
+
+    }
+
+    #overview img {
+        position: absolute;
+        top: -18.5rem;
+        right: -12rem;
+        height: 45rem;
+        content:url("/assets/image-hero-desktop.png");
+        width: auto;
+    }
+
+    #features ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0rem calc(10.3rem - 5px);
+        width: 100%;
+    }
+    
+    
+    #fetures ul li {
+        width: 339px;
+        height: 259px;
+        padding: 5px;
+    }
+    #features ul li#checkout {
+        width: 339px;
+        height: 259px;
+        display: block;
+        padding-top: 3.5rem;
+    }
+
+    footer {
+        padding: 0rem 10.3rem;
+    }
 }
